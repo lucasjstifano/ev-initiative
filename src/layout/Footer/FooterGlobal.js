@@ -1,13 +1,19 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import emailjs from "@emailjs/browser";
 
+// ** Third Party Imports
+import toast from "react-hot-toast";
+
 const FooterGlobal = ({ footerLight, style, footerGradient }) => {
+  const [submitting, setSubmitting] = useState("Subscribe");
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setSubmitting("Subscribing");
 
     emailjs
       .sendForm(
@@ -19,11 +25,28 @@ const FooterGlobal = ({ footerLight, style, footerGradient }) => {
       .then(
         (result) => {
           console.log(result.text);
+          console.log("Subscribing");
+          toast.success(
+            "Thanks for subscribing! Check your email weekly for EV Initiative updates.",
+            {
+              style: {
+                borderRadius: "10px",
+              },
+              duration: 6000,
+            }
+          );
+          setSubmitting("Subscribed!");
         },
         (error) => {
           console.log(error.text);
+          console.log("message NOT sent");
+          toast.error(
+            "Sorry, there was an issue subscribing. Please try again."
+          );
         }
       );
+
+    e.target.reset();
   };
 
   return (
@@ -59,7 +82,7 @@ const FooterGlobal = ({ footerLight, style, footerGradient }) => {
                     onSubmit={sendEmail}
                   >
                     <input
-                      type="text"
+                      type="email"
                       className="input-newsletter form-control me-2"
                       placeholder="Enter your email"
                       name="email"
@@ -68,7 +91,7 @@ const FooterGlobal = ({ footerLight, style, footerGradient }) => {
                     />
                     <input
                       type="submit"
-                      value="Subscribe"
+                      value={submitting}
                       className="btn btn-primary mt-3 mt-lg-0 mt-md-0"
                     />
                   </form>

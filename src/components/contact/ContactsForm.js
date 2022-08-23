@@ -18,6 +18,8 @@ function formatPhoneNumber(value) {
 
 const ContactsForm = () => {
   const [inputValue, setInputValue] = useState("");
+  const [submitting, setSubmitting] = useState("Get Started");
+
   const handlePhoneInput = (e) => {
     const formattedPhoneNumber = formatPhoneNumber(e.target.value);
     setInputValue(formattedPhoneNumber);
@@ -453,7 +455,7 @@ const ContactsForm = () => {
                   type="submit"
                   className="btn btn-primary mt-4 d-block w-100"
                 >
-                  Get Started
+                  {submitting}
                 </button>
               </div>
             </div>

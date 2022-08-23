@@ -2,15 +2,17 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ScrollToTop from "../components/common/ScrollToTop";
 import NotFoundScreen from "../components/others/NotFoundScreen";
-import Apps from "../pages/Apps";
-import Contact from "../pages/Contact";
-import AboutUs from "../themes/-about-us/AboutUs";
-import HomeEV from "../themes/-ev-initiative/HomeEV";
-import HomeCrypto from "../themes/-evi-coin/HomeCrypto";
-import iFrame from "../themes/-iFrame-test/iFrame";
-import PrivacyPolicy from "../themes/-privacy-policy/PrivacyPolicy";
-import SiteHosts from "../themes/-site-hosts/SiteHosts";
-import Hardware from "../themes/-hardware/Hardware";
+import HomeCrypto from "../pages/ev-crypto/HomeCrypto";
+import AboutUs from "../pages/ev-initiative/AboutUs";
+import Apps from "../pages/ev-initiative/Apps";
+import Hardware from "../pages/ev-initiative/Hardware";
+import HomeEV from "../pages/ev-initiative/HomeEV";
+import SiteHosts from "../pages/ev-initiative/SiteHosts";
+import Contact from "../pages/ev-initiative/Contact";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
+
+//Third Party Imports
+import { Toaster } from "react-hot-toast";
 
 class Routes extends Component {
   render() {
@@ -18,6 +20,12 @@ class Routes extends Component {
       <>
         <Router>
           <ScrollToTop />
+          <Toaster
+            position="bottom-right"
+            reverseOrder={false}
+            toastOptions={{ className: "react-hot-toast" }}
+          />
+
           <Switch>
             <Route exact path="/" component={HomeEV} />
             <Route exact path="/evi-token" component={HomeCrypto} />
@@ -27,10 +35,6 @@ class Routes extends Component {
             <Route exact path="/site-hosts" component={SiteHosts} />
             <Route exact path="/contact-us" component={Contact} />
             <Route exact path="/privacy-policy" component={PrivacyPolicy} />
-            <Route exact path="/iframe" component={iFrame} />
-            {/*<Route exact path="/password-reset" component={PasswordReset} />
-             <Route exact path="/login" component={Login} />
-            <Route exact path="/signup" component={Signup} /> */}
             <Route component={NotFoundScreen} />
           </Switch>
         </Router>

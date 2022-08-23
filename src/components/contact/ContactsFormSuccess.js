@@ -2,6 +2,9 @@ import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
+// ** Third Party Imports
+import toast from "react-hot-toast";
+
 function formatPhoneNumber(value) {
   if (!value) return value;
   const phoneNumber = value.replace(/[^\d]/g, "");
@@ -18,26 +21,24 @@ function formatPhoneNumber(value) {
 
 const ContactsForm = () => {
   const [inputValue, setInputValue] = useState("");
+  const [submitting, setSubmitting] = useState("Get Started");
+
   const handlePhoneInput = (e) => {
     const formattedPhoneNumber = formatPhoneNumber(e.target.value);
     setInputValue(formattedPhoneNumber);
   };
 
-  // const [submitting, setSubmitting] = useState(false);
-  const [message, setMessage] = useState();
-
   const submitForm = async (e) => {
     e.preventDefault();
     setInputValue("");
-    // setSubmitting(true);
     sendEmail("");
     e.target.reset();
-    // setSubmitting(false);
   };
 
   const form = useRef();
 
   const sendEmail = (e) => {
+    setSubmitting("Submitting...");
     emailjs
       .sendForm(
         "service_oebog49",
@@ -49,18 +50,25 @@ const ContactsForm = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
-          setMessage({
-            class: "bg-primary",
-            text: "Message has been sent!",
-          });
+          toast.success(
+            "Thanks for contacting our team. One of our representatives will follow up shortly!",
+            {
+              style: {
+                borderRadius: "10px",
+                background: "#333",
+                color: "#fff",
+              },
+              duration: 6000,
+            }
+          );
+          setSubmitting("Message Sent!");
         },
         (error) => {
           console.log(error.text);
           console.log("message NOT sent");
-          setMessage({
-            class: "bg-danger",
-            text: "There was an issue! Please try again.",
-          });
+          toast.error(
+            "Sorry, there was an issue sending your message. Please try again."
+          );
         }
       );
   };
@@ -72,13 +80,6 @@ const ContactsForm = () => {
           <h3 className="fw-medium h4">
             Fill out the form and we'll be in touch as soon as possible.
           </h3>
-          {message && (
-            <div
-              className={`mt-30 rounded-4 text-white w-100 p-4 h6 shadow ${message.class}`}
-            >
-              {message.text}
-            </div>
-          )}
           <form
             action="#"
             className="mt-4 register-form"
@@ -479,7 +480,7 @@ const ContactsForm = () => {
                   type="submit"
                   className="btn btn-primary mt-4 d-block w-100"
                 >
-                  Get Started
+                  {submitting}
                 </button>
               </div>
             </div>
