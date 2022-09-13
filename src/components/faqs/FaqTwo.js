@@ -9,8 +9,8 @@ const FaqTwo = () => {
           <div className="row justify-content-center">
             <div className="col-lg-7 col-12">
               <SectionTitle
-                subtitle="FAQ"
-                title="Frequently Asked Questions"
+                subtitle="FUTURE"
+                title="Upcoming Features"
                 description=""
                 centerAlign
               />
@@ -28,8 +28,7 @@ const FaqTwo = () => {
                       data-bs-target="#collapse-1"
                       aria-expanded="true"
                     >
-                      For site hosts, how Many Charging Stations Does EV
-                      Initiative Typically Deploy Initially?
+                      OCPP 2.0.1
                     </button>
                   </h5>
                   <div
@@ -39,13 +38,12 @@ const FaqTwo = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="accordion-body">
-                      On most Deployments EV Initiative instals 2 to 4 charging
-                      points to begin with. We always take into consideration
-                      the addition of EV charging stations down the road. As
-                      soon as EV Initiative observes utilisation rate over 30
-                      days greater than 20%, it is in the interest of EV
-                      Initiative and the co-ownership to develop the
-                      infrastructure in order to add new charging points.
+                      OCPP 2.0.1 incorporates improvements for things found in
+                      the first implementations of OCPP 2.0 during Plugfests and
+                      in the field. Improvements have been made in the area of
+                      security, ISO 15118, Smart Charging and the extensibility
+                      of OCPP. A better explanation of the Device Model has been
+                      added as well as several other improvements.
                     </div>
                   </div>
                 </div>
@@ -58,7 +56,7 @@ const FaqTwo = () => {
                       data-bs-target="#collapse-2"
                       aria-expanded="false"
                     >
-                      What is the term of the contract?
+                      eRoaming
                     </button>
                   </h5>
                   <div
@@ -69,15 +67,18 @@ const FaqTwo = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        The contract extends for a period of 10 years from the
-                        date of commissioning or evolution of the charging
-                        station infrastructure, the time for EV Initiative to
-                        amortise the infrastructure, then it is automatically
-                        renewed for successive periods of 5 years.
-                      </p>
-                      <p>
-                        Level 2's start at 60-months and DCFC start at
-                        120-months
+                        EV Initiaitve’s eRoaming allows the interconnection of
+                        charging station operators/networks (CSO) with eMobility
+                        providers (EMP) selling services to EV drivers. The EV
+                        service platform does manage the authorisation protocol
+                        and financial clearing between charging station
+                        operators (CSO) and eMobility providers (EMP). This open
+                        solution will be open to any other charging station
+                        networks (CSO) or any EV driver eMobility providers
+                        (EMP). The solution is based on the international Open
+                        Charge Point Interface (OCPI) used by major EV charging
+                        networks and connection to major hubs Hubject and
+                        Gireve.
                       </p>
                     </div>
                   </div>
@@ -91,8 +92,7 @@ const FaqTwo = () => {
                       data-bs-target="#collapse-3"
                       aria-expanded="false"
                     >
-                      Who decides where to locate the charging stations at a
-                      host location?
+                      ISO15118 Plug & Charge
                     </button>
                   </h5>
                   <div
@@ -102,10 +102,25 @@ const FaqTwo = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="accordion-body">
-                      The exact locations for the installation of the charging
-                      station infrastructures are included in the appendix to
-                      the contract binding EV Initiative to the owner/co-owners
-                      of the designated space.
+                      <p>
+                        ISO15118 is a standard for vehicle-to-grid
+                        communication, specifying the ways the vehicles
+                        communicate with charging devices. The standard also
+                        defines preconditions for identification with the cable
+                        or via Wi-Fi, enabling the charging device and the
+                        back-end service to identify the car and its owner when
+                        the vehicle is plugged in.
+                      </p>
+                      <p>
+                        Developing a smooth customer experience is our passion,
+                        which is why removing one step from the charging event
+                        process sounded tempting.
+                      </p>
+                      <p>
+                        We took the ISO15118 standard instructions and made them
+                        into a fully functioning product: Plug & Charge by EV
+                        Initiative.
+                      </p>
                     </div>
                   </div>
                 </div>

@@ -572,7 +572,7 @@ ul {
 }
 .bg-dark .link-with-icon,
 .bg-gradient .link-with-icon {
-  color: var(--bs-secondary-dark);
+  color: #fff;
 }
 .btn {
   position: relative;
@@ -894,7 +894,7 @@ ul {
 .bg-purple p,
 .bg-purple li,
 .bg-purple span {
-  color: var(--bs-secondary-dark);
+  color: #fff;
 }
 .bg-white h1,
 .bg-white h2,

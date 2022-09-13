@@ -1,34 +1,39 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ModalVideo from "react-modal-video";
-import HeroTitle from "../../components/common/HeroTitle";
 import { HashLink } from "react-router-hash-link";
+import Typist from "react-text-typist";
 
 const HeroEV = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
     <>
-      <section className="hero-section ptb-120 text-white bg-dark hero-img-ev hero-gradient">
+      <section className="hero-section ptb-120 bg-dark hero-img-ev">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-10">
               <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0 ptb-120">
-                <HeroTitle
-                  title="eMobility Service Provider & Charge Port Operator"
-                  descClass="text-white"
-                />
+                <h1 className="fw-bold display-5" data-aos="fade-up">
+                  The Most{" "}
+                  <Typist
+                    sentences={[
+                      "Interoperable",
+                      "Capable",
+                      "Scalable",
+                      "Secure",
+                      "Accessable",
+                      "Cost Effective",
+                    ]}
+                    loop={true}
+                  />
+                  <br /> EV Charging Operating System
+                </h1>
                 <div
                   className="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <ModalVideo
-                    channel="youtube"
-                    isOpen={isOpen}
-                    videoId="hAP2QF--2Dg"
-                    onClose={() => setOpen(false)}
-                  />
                   <HashLink
                     smooth
                     to="/site-hosts"

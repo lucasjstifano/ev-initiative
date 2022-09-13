@@ -102,7 +102,7 @@ const NavbarEV = ({ navDark }) => {
                 </li>
                 <li>
                   <Link
-                    className="nav-link"
+                    className="nav-link me-4"
                     to={process.env.PUBLIC_URL + "/contact-us"}
                   >
                     Contact
@@ -110,14 +110,14 @@ const NavbarEV = ({ navDark }) => {
                 </li>
               </ul>
             </div>
-            <Link to={process.env.PUBLIC_URL + "/evi-token"} className="me-3">
+            {/* <Link to={process.env.PUBLIC_URL + "/evi-token"} className="me-3">
               <img
                 src="assets/img/3d-icons/token-edit.gif"
                 alt="crypto"
                 className="img-fluid logo-white"
                 style={{ height: 60 }}
               />
-            </Link>
+            </Link> */}
 
             <div className="action-btns me-5 me-lg-0 d-none d-md-block d-lg-block">
               {/* <Link

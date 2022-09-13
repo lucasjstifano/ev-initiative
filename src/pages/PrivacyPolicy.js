@@ -12,7 +12,7 @@ class PrivacyPolicy extends Component {
   render() {
     return (
       <Layout>
-        <PageMeta title="EV Initiative - Driving a Sustainable and Decentralized Future" />
+        <PageMeta title="EV Initiative - eMobility Service Provider & Charge Port Operator" />
         <SecVerticalSocial data={VerticalSocial} />
         <NavbarEvPages />
         <PageHeaderBasic title="Privacy Policy" desc="" />

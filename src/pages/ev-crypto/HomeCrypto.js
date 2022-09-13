@@ -11,7 +11,7 @@ class HomeCrypto extends Component {
   render() {
     return (
       <Layout>
-        <PageMeta title="EV Initiative - Driving a Sustainable and Decentralized Future" />
+        <PageMeta title="EV Initiative - eMobility Service Provider & Charge Port Operator" />
         <SecVerticalSocial data={VerticalSocial} />
         <NavbarEV navDark />
         <HeroCrypto />

@@ -47,23 +47,25 @@ const AboutHome = () => {
           <div className="col-lg-6">
             <div className="pt-5">
               <div className="section-heading mb-5">
-                <h5 className="h6 text-primary">About Us</h5>
-                <h2>Why EV Initiative?</h2>
+                <h5 className="h6 text-primary">Why EV Initiative</h5>
+                <h2>
+                  We provide a full-stack interoperable software solution for
+                  smart EV charging
+                </h2>
                 <p>
-                  EV Initiative provides an investment solution and immediate
-                  profitability in the interest of co-ownerships and facilitates
-                  the process of having its collective charging solution
-                  validated with co-owners.
+                  EV Initiative provides a full stack software solution that is
+                  open, interoperable and future proof.
                 </p>
                 <p>
-                  EV Initiative is revolutionising access to charging
-                  infrastructure for professional co-ownerships thanks to an
-                  investment that is 100% covered by our company…
+                  The EV Initiative operating system includes direct EV roaming
+                  via OCPI and integration with roaming hubs like Hubject and
+                  GIREVE, payments and billing modules, OpenADR, Plug & Charge
+                  and much more.
                 </p>
                 <p>
-                  From installation to maintenance, EV Initiative takes care of
-                  everything. The trustee and co-owners of the space provide EV
-                  Charging to the public worry free
+                  Our software makes it easy to connect any OCPP-compliant
+                  charge point to our software and integrate any external system
+                  via our robust API.
                 </p>
                 <Link
                   to="/about-ev-initiative"

@@ -11,7 +11,7 @@ import Layout from "../../layout/Layout";
 const Contact = () => {
   return (
     <Layout>
-      <PageMeta title="EV Initiative - Driving a Sustainable and Decentralized Future" />
+      <PageMeta title="EV Initiative - eMobility Service Provider & Charge Port Operator" />
       <NavbarEvPages />
       <PageHeaderBasic title="Contact Us" desc="" />
       <FeatureImgContentFourHome />

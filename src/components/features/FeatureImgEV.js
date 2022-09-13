@@ -12,21 +12,33 @@ const FeatureImgEV = () => {
                 <div className="icon-box rounded-custom bg-primary shadow-sm d-inline-block ">
                   <i className="fal fa-cloud fa-2x text-white "></i>
                 </div>
-                <h2>EV Initiative Cloud Management</h2>
+                <h2>EV Initiative's Cloud Management</h2>
                 <ul className="list-unstyled d-flex flex-wrap price-feature-col mt-4 mb-4">
                   <li className="py-1">
                     <i className="fas fa-check-circle me-2 text-primary"></i>
-                    EV Initiative’s back-office dashboard provides complete
-                    real-time oversight of the chargers on your property
+                    Open Charging station hardware connection from any type of
+                    provider compatible with OCPP (Open charge point protocol)
                   </li>
                   <li className="py-1">
                     <i className="fas fa-check-circle me-2 text-primary"></i>
-                    Track usage, electricity, revenue, and more.
+                    Operation management console for service partner with
+                    interactive statistics
                   </li>
                   <li className="py-1">
                     <i className="fas fa-check-circle me-2 text-primary"></i>
-                    Future-ready to power a growing variety of open-standard
-                    equipment. No risk of vendor lock.
+                    Pricing management with the creation of multiple pricing
+                    plans for Site Owners
+                  </li>
+                  <li className="py-1">
+                    <i className="fas fa-check-circle me-2 text-primary"></i>
+                    Open Billing interface to any type of market ERP
+                  </li>
+                  <li className="py-1">
+                    <i className="fas fa-check-circle me-2 text-primary"></i>
+                    Energy management: Distribute power across a group of
+                    chargers dynamically depending on usage with load balancing
+                    and determine a maximum power output per charger or group of
+                    chargers
                   </li>
                 </ul>
                 <a
