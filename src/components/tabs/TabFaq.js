@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 import SectionTitle from "../common/SectionTitle";
 
@@ -29,39 +29,42 @@ const TabFaq = () => {
                 role="tablist"
               >
                 <li className="nav-item">
-                  <Link
-                    className="nav-link active"
-                    to="#tab-1"
-                    data-bs-toggle="tab"
-                    data-bs-target="#tab-1"
-                    role="tab"
-                    aria-selected="false"
-                  >
-                    Tokenomics
+                  <Link href="#tab-1">
+                    <a
+                      className="nav-link active"
+                      data-bs-toggle="tab"
+                      data-bs-target="#tab-1"
+                      role="tab"
+                      aria-selected="false"
+                    >
+                      Tokenomics
+                    </a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    to="#tab-2"
-                    data-bs-toggle="tab"
-                    data-bs-target="#tab-2"
-                    role="tab"
-                    aria-selected="false"
-                  >
-                    NFT & Staking
+                  <Link href="#tab-2">
+                    <a
+                      className="nav-link"
+                      data-bs-toggle="tab"
+                      data-bs-target="#tab-2"
+                      role="tab"
+                      aria-selected="false"
+                    >
+                      NFT & Staking
+                    </a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    to="#tab-3"
-                    data-bs-toggle="tab"
-                    data-bs-target="#tab-3"
-                    role="tab"
-                    aria-selected="false"
-                  >
-                    DAO
+                  <Link href="#tab-3">
+                    <a
+                      className="nav-link"
+                      data-bs-toggle="tab"
+                      data-bs-target="#tab-3"
+                      role="tab"
+                      aria-selected="false"
+                    >
+                      DAO
+                    </a>
                   </Link>
                 </li>
               </ul>

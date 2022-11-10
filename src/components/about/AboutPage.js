@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const AboutPage = () => {
   return (
@@ -67,12 +67,11 @@ const AboutPage = () => {
                   entered into the new era of the internet and connected
                   devices.
                 </p>
-                <Link
-                  to="/evi-token"
-                  className="link-with-icon text-decoration-none mt-3 btn btn-primary"
-                >
-                  EVI Token
-                  <i className="fas fa-arrow-right"></i>
+                <Link href="/evi-token">
+                  <a className="link-with-icon text-decoration-none mt-3 btn btn-primary">
+                    EVI Token
+                    <i className="fas fa-arrow-right"></i>
+                  </a>
                 </Link>
               </div>
             </div>

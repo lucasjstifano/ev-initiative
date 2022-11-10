@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
-import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import Link from "next/link";
 import emailjs from "@emailjs/browser";
 
 const FooterSmall = ({ footerLight, style, footerGradient }) => {
@@ -103,13 +102,3 @@ const FooterSmall = ({ footerLight, style, footerGradient }) => {
 };
 
 export default FooterSmall;
-
-/*
-<HashLink
-smooth
-to="/evi-token/#evi-whitepaper"
-className="text-decoration-none"
->
-Whitepaper
-</HashLink>
-*/

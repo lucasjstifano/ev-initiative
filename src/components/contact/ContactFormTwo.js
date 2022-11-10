@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import emailjs from "@emailjs/browser";
 
 // ** Third Party Imports
@@ -515,7 +515,9 @@ const ContactFormTwo = () => {
                       >
                         Yes, I'd like to receive occasional marketing emails
                         from us. I have the right to opt out at any time.
-                        <Link to="/privacy-policy"> View privacy policy</Link>.
+                        <Link href="/privacy-policy">
+                          <a>View privacy policy</a>
+                        </Link>
                       </label>
                     </div>
                   </div>

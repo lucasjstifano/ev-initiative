@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const FooterSocial = () => {
   return (
@@ -28,22 +28,22 @@ const FooterSocial = () => {
                 <div className="footer-single-col text-start text-lg-end text-md-end">
                   <ul className="list-unstyled list-inline footer-social-list mb-0">
                     <li className="list-inline-item">
-                      <Link to="#">
+                      <Link href="#">
                         <i className="fab fa-facebook-f"></i>
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link to="#">
+                      <Link href="#">
                         <i className="fab fa-instagram"></i>
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link to="#">
+                      <Link href="#">
                         <i className="fab fa-dribbble"></i>
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link to="#">
+                      <Link href="#">
                         <i className="fab fa-github"></i>
                       </Link>
                     </li>

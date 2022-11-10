@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const AboutHome = () => {
   return (
@@ -67,12 +67,11 @@ const AboutHome = () => {
                   charge point to our software and integrate any external system
                   via our robust API.
                 </p>
-                <Link
-                  to="/about-ev-initiative"
-                  className="link-with-icon text-decoration-none mt-3 btn btn-primary"
-                >
-                  Learn More
-                  <i className="fas fa-arrow-right"></i>
+                <Link href="/about-ev-initiative">
+                  <a className="link-with-icon text-decoration-none mt-3 btn btn-primary">
+                    Learn More
+                    <i className="fas fa-arrow-right"></i>
+                  </a>
                 </Link>
               </div>
             </div>

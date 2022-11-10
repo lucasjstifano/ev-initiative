@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import ModalVideo from "react-modal-video";
+import Link from "next/link";
 import SectionTitle from "../common/SectionTitle";
 
 const CtaEv = () => {
@@ -45,12 +44,6 @@ const CtaEv = () => {
               </div>
             </div>
           </div>
-          <ModalVideo
-            channel="youtube"
-            isOpen={isOpen}
-            videoId="hAP2QF--2Dg"
-            onClose={() => setOpen(false)}
-          />
         </div>
       </section>
     </>

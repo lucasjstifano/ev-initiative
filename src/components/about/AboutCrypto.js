@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const AboutCrypto = () => {
   return (
@@ -82,13 +82,12 @@ const AboutCrypto = () => {
                 Connect Wallet
                 <i className="fa-solid fa-wallet"></i>
               </a>
-              {/* <Link
-                to="/about-us"
-                className=" link-with-icon text-decoration-none mt-5 btn btn-primary"
-              >
-                Buy EVI Token
-                <i className="fa-brands fa-ethereum"></i>
-              </Link> */}
+              <Link href="/about-us">
+                <a className=" link-with-icon text-decoration-none mt-5 btn btn-primary">
+                  Buy EVI Token
+                  <i className="fa-brands fa-ethereum"></i>
+                </a>
+              </Link>
             </div>
           </div>
         </div>

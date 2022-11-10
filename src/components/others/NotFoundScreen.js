@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const NotFoundScreen = () => {
   return (
@@ -17,8 +17,8 @@ const NotFoundScreen = () => {
                   before robust potentialities.{" "}
                 </p>
 
-                <Link to="/" className="btn btn-primary mt-4">
-                  Go Back Home
+                <Link href="/">
+                  <a className="btn btn-primary mt-4">Go Back Home</a>
                 </Link>
               </div>
             </div>

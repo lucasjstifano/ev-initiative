@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const FeatureImgHardware = () => {
   return (
@@ -27,12 +27,11 @@ const FeatureImgHardware = () => {
                     hardware to ensure a premium driving experience.
                   </p>
                 </ul>
-                <Link
-                  to="/contact-us"
-                  className="link-with-icon text-decoration-none mt-3 btn btn-primary"
-                >
-                  Contact Us
-                  <i className="fas fa-arrow-right"></i>
+                <Link href="/contact-us">
+                  <a className="link-with-icon text-decoration-none mt-3 btn btn-primary">
+                    Contact Us
+                    <i className="fas fa-arrow-right"></i>
+                  </a>
                 </Link>
               </div>
             </div>

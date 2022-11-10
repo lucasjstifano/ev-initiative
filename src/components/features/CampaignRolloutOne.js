@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import SectionTitle from "../common/SectionTitle";
 
 const CampaignRolloutOne = ({ cardDark }) => {
@@ -66,11 +66,10 @@ const CampaignRolloutOne = ({ cardDark }) => {
                       Coin NFTs can be traded in secondary markets.
                     </p>
                   </div>
-                  <Link
-                    to="/single-service"
-                    className="link-with-icon text-decoration-none mt-3"
-                  >
-                    View Details <i className="far fa-arrow-right"></i>
+                  <Link href="/single-service">
+                    <a className="link-with-icon text-decoration-none mt-3">
+                      View Details <i className="far fa-arrow-right"></i>
+                    </a>
                   </Link>
                 </div>
                 <div
@@ -100,11 +99,10 @@ const CampaignRolloutOne = ({ cardDark }) => {
                       participate in the company’s strategic decisions.
                     </p>
                   </div>
-                  <Link
-                    to="/single-service"
-                    className="link-with-icon text-decoration-none mt-3"
-                  >
-                    View Details <i className="far fa-arrow-right"></i>
+                  <Link href="/single-service">
+                    <a className="link-with-icon text-decoration-none mt-3">
+                      View Details <i className="far fa-arrow-right"></i>
+                    </a>
                   </Link>
                 </div>
               </div>

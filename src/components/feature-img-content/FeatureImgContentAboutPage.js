@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 const FeatureImgContentAboutPage = () => {
   return (
     <>
@@ -31,11 +31,10 @@ const FeatureImgContentAboutPage = () => {
                     our web-app
                   </li>
                 </ul>
-                <Link
-                  to="/about-us"
-                  className="read-more-link text-decoration-none"
-                >
-                  Download Our App <i className="far fa-arrow-right ms-2"></i>
+                <Link href="/about-us">
+                  <a className="read-more-link text-decoration-none">
+                    Download Our App <i className="far fa-arrow-right ms-2"></i>
+                  </a>
                 </Link>
               </div>
             </div>

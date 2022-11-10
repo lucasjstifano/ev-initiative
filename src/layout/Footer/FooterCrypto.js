@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import Link from "next/link";
 
 const FooterCrypto = ({ footerLight, style, footerGradient }) => {
   return (
@@ -74,48 +73,41 @@ const FooterCrypto = ({ footerLight, style, footerGradient }) => {
                       <h3 className="text-white-50">Navigation</h3>
                       <ul className="list-unstyled footer-nav-list mb-lg-0">
                         <li>
-                          <Link
-                            to="/evi-token"
-                            className="text-decoration-none"
-                          >
-                            EVI Token
+                          <Link href="/evi-token">
+                            <a className="text-decoration-none">EVI Token</a>
                           </Link>
                         </li>
                         <li>
-                          <HashLink
-                            smooth
-                            to="/evi-token#evi-benefits"
-                            className="text-decoration-none"
+                          <Link
+                            // smooth
+                            href="/evi-token#evi-benefits"
                           >
-                            Benefits
-                          </HashLink>
+                            <a className="text-decoration-none">Benefits</a>
+                          </Link>
                         </li>
                         <li>
-                          <HashLink
-                            smooth
-                            to="/evi-token#evi-presale"
-                            className="text-decoration-none"
+                          <Link
+                            // smooth
+                            href="/evi-token#evi-presale"
                           >
-                            Presale
-                          </HashLink>
+                            <a className="text-decoration-none">Presale</a>
+                          </Link>
                         </li>
                         <li>
-                          <HashLink
-                            smooth
-                            to="/evi-token#evi-faq"
-                            className="text-decoration-none"
+                          <Link
+                            // smooth
+                            href="/evi-token#evi-faq"
                           >
-                            FAQs
-                          </HashLink>
+                            <a className="text-decoration-none">FAQs</a>
+                          </Link>
                         </li>
                         <li>
-                          <HashLink
-                            smooth
-                            to="/evi-token#evi-roadmap"
-                            className="text-decoration-none"
+                          <Link
+                            // smooth
+                            href="/evi-token#evi-roadmap"
                           >
-                            Roadmap
-                          </HashLink>
+                            <a className="text-decoration-none">Roadmap</a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -125,42 +117,32 @@ const FooterCrypto = ({ footerLight, style, footerGradient }) => {
                       <h3 className="text-white-50">EV Initiative</h3>
                       <ul className="list-unstyled footer-nav-list mb-lg-0">
                         <li>
-                          <Link to="/" className="text-decoration-none">
-                            Home
+                          <Link href="/">
+                            <a className="text-decoration-none">Home</a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/about-ev-initiative">
+                            <a className="text-decoration-none">About Us</a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/sponsorship">
+                            <a className="text-decoration-none">Sponsorship</a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/site-hosts">
+                            <a className="text-decoration-none">Site Hosts</a>
                           </Link>
                         </li>
                         <li>
                           <Link
-                            to="/about-ev-initiative"
-                            className="text-decoration-none"
+                            // smooth
+                            href="/#network-app-ev"
                           >
-                            About Us
+                            <a className="text-decoration-none">App Download</a>
                           </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to="/sponsorship"
-                            className="text-decoration-none"
-                          >
-                            Sponsorship
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to="/site-hosts"
-                            className="text-decoration-none"
-                          >
-                            Site Hosts
-                          </Link>
-                        </li>
-                        <li>
-                          <HashLink
-                            smooth
-                            to="/#network-app-ev"
-                            className="text-decoration-none"
-                          >
-                            App Download
-                          </HashLink>
                         </li>
                       </ul>
                     </div>
@@ -170,37 +152,31 @@ const FooterCrypto = ({ footerLight, style, footerGradient }) => {
                       <h3 className="text-white-50">Resources</h3>
                       <ul className="list-unstyled footer-nav-list mb-lg-0">
                         <li>
-                          <Link
-                            to="/contact-us"
-                            className="text-decoration-none"
-                          >
-                            Contact
+                          <Link href="/contact-us">
+                            <a className="text-decoration-none">Contact</a>
                           </Link>
                         </li>
                         <li>
-                          <HashLink
-                            smooth
-                            to="/evi-token#evi-whitepaper"
-                            className="text-decoration-none"
+                          <Link
+                            // smooth
+                            href="/evi-token#evi-whitepaper"
                           >
-                            Whitepaper
-                          </HashLink>
-                        </li>
-                        <li>
-                          <HashLink
-                            smooth
-                            to="/evi-token#evi-founders"
-                            className="text-decoration-none"
-                          >
-                            Overview
-                          </HashLink>
+                            <a className="text-decoration-none">Whitepaper</a>
+                          </Link>
                         </li>
                         <li>
                           <Link
-                            to="/privacy-policy"
-                            className="text-decoration-none"
+                            // smooth
+                            href="/evi-token#evi-founders"
                           >
-                            Privacy Policy
+                            <a className="text-decoration-none">Overview</a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/privacy-policy">
+                            <a className="text-decoration-none">
+                              Privacy Policy
+                            </a>
                           </Link>
                         </li>
                       </ul>

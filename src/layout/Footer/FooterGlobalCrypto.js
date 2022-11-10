@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import Link from "next/link";
 
 const FooterGlobalCrypto = ({ footerLight, style, footerGradient }) => {
   return (
@@ -106,131 +105,59 @@ const FooterGlobalCrypto = ({ footerLight, style, footerGradient }) => {
                       <h3 className="text-white-50">Navigation</h3>
                       <ul className="list-unstyled footer-nav-list mb-lg-0">
                         <li>
-                          <Link to="/" className="text-decoration-none">
-                            Home
+                          <Link href="/">
+                            <a className="text-decoration-none">Home</a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/about-ev-initiative">
+                            <a className="text-decoration-none">About Us</a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/hardware">
+                            <a className="text-decoration-none">Hardware</a>
                           </Link>
                         </li>
                         <li>
                           <Link
-                            to="/about-ev-initiative"
-                            className="text-decoration-none"
+                            // smooth
+                            href="/apps"
                           >
-                            About Us
+                            <a className="text-decoration-none">Apps</a>
                           </Link>
                         </li>
                         <li>
-                          <Link to="/hardware" className="text-decoration-none">
-                            Hardware
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            smooth
-                            to="/apps"
-                            className="text-decoration-none"
-                          >
-                            Apps
+                          <Link href="/site-hosts">
+                            <a className="text-decoration-none">Site Hosts</a>
                           </Link>
                         </li>
                         <li>
                           <Link
-                            to="/site-hosts"
-                            className="text-decoration-none"
+                            // smooth
+                            href="/#cloud-management"
                           >
-                            Site Hosts
+                            <a className="text-decoration-none">
+                              Cloud Management
+                            </a>
                           </Link>
-                        </li>
-                        <li>
-                          <HashLink
-                            smooth
-                            to="/#cloud-management"
-                            className="text-decoration-none"
-                          >
-                            Cloud Management
-                          </HashLink>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  {/* <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
-                    <div className="footer-single-col">
-                      <h3 className="text-white-50">EVI Token</h3>
-                      <ul className="list-unstyled footer-nav-list mb-lg-0">
-                        <li>
-                          <Link
-                            to="/evi-token"
-                            className="text-decoration-none"
-                          >
-                            Home
-                          </Link>
-                        </li>
-                        <li>
-                          <HashLink
-                            smooth
-                            to="/evi-token#evi-whitepaper"
-                            className="text-decoration-none"
-                          >
-                            Whitepaper
-                          </HashLink>
-                        </li>
-                        <li>
-                          <HashLink
-                            smooth
-                            to="/evi-token#evi-founders"
-                            className="text-decoration-none"
-                          >
-                            Founders
-                          </HashLink>
-                        </li>
-                        <li>
-                          <HashLink
-                            smooth
-                            to="/evi-token#evi-presale"
-                            className="text-decoration-none"
-                          >
-                            Presale
-                          </HashLink>
-                        </li>
-                        <li>
-                          <HashLink
-                            smooth
-                            to="/evi-token#evi-faq"
-                            className="text-decoration-none"
-                          >
-                            FAQs
-                          </HashLink>
-                        </li>
-                        <li>
-                          <HashLink
-                            smooth
-                            to="/evi-token#evi-roadmap"
-                            className="text-decoration-none"
-                          >
-                            Roadmap
-                          </HashLink>
-                        </li>
-                      </ul>
-                    </div>
-                  </div> */}
 
                   <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                     <div className="footer-single-col">
                       <h3 className="text-white-50">Resources</h3>
                       <ul className="list-unstyled footer-nav-list mb-lg-0">
                         <li>
-                          <Link
-                            to="/contact-us"
-                            className="text-decoration-none"
-                          >
-                            Contact
+                          <Link href="/contact-us">
+                            <a className="text-decoration-none">Contact</a>
                           </Link>
                         </li>
                         <li>
-                          <Link
-                            to="/evi-token"
-                            className="text-decoration-none"
-                          >
-                            Crypto
+                          <Link href="/evi-token">
+                            <a className="text-decoration-none">Crypto</a>
                           </Link>
                         </li>
                         <li>
@@ -244,29 +171,27 @@ const FooterGlobalCrypto = ({ footerLight, style, footerGradient }) => {
                           </a>
                         </li>
                         <li>
-                          <HashLink
-                            smooth
-                            to="/#network-app-ev"
-                            className="text-decoration-none"
+                          <Link
+                            // smooth
+                            href="/#network-app-ev"
                           >
-                            App Download
-                          </HashLink>
-                        </li>
-                        <li>
-                          <HashLink
-                            smooth
-                            to="/#ev-faq"
-                            className="text-decoration-none"
-                          >
-                            FAQs
-                          </HashLink>
+                            <a className="text-decoration-none">App Download</a>
+                          </Link>
                         </li>
                         <li>
                           <Link
-                            to="/privacy-policy"
-                            className="text-decoration-none"
+                            // smooth
+                            href="/#ev-faq"
                           >
-                            Privacy Policy
+                            <a className="text-decoration-none"></a>
+                            FAQs
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/privacy-policy">
+                            <a className="text-decoration-none">
+                              Privacy Policy
+                            </a>
                           </Link>
                         </li>
                       </ul>
@@ -352,13 +277,3 @@ const FooterGlobalCrypto = ({ footerLight, style, footerGradient }) => {
 };
 
 export default FooterGlobalCrypto;
-
-/*
-<HashLink
-smooth
-to="/evi-token/#evi-whitepaper"
-className="text-decoration-none"
->
-Whitepaper
-</HashLink>
-*/
