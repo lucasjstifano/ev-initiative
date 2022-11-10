@@ -82,6 +82,11 @@ const NavbarEvPages = ({ navDark }) => {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/blog">
+                    <a className="nav-link">Blog</a>
+                  </Link>
+                </li>
+                <li>
                   <Link href="/contact-us">
                     <a className="nav-link me-4">Contact</a>
                   </Link>
