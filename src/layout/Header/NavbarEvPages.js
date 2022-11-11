@@ -32,7 +32,7 @@ const NavbarEvPages = ({ navDark }) => {
             <Link href="/">
               <a className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
                 <img
-                  src="assets/img/brand-logo/EV Initiative Logo Header.png"
+                  src="/assets/img/brand-logo/EV Initiative Logo Header.png"
                   alt="logo"
                   className="img-fluid logo-color"
                   style={{ height: 60 }}

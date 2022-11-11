@@ -183,10 +183,30 @@ a:hover,
     margin-left: 10px;
   }
 }
+
 ul {
   margin: 0;
   padding: 0;
 }
+
+/* Blogger SCSS */
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+ins {
+  background: var(--bs-primary);
+  text-decoration: none;
+}
+
+table a,
+table a:link,
+table a:visited {
+  text-decoration: underline;
+}
+
 /*======================
 02. PRE DEFINE CLASS CSS
 =======================*/

@@ -65,7 +65,7 @@ const FooterGlobal = ({ footerLight, style, footerGradient }) => {
                 <div className="footer-single-col">
                   <div className="footer-single-col mb-4">
                     <img
-                      src="assets/img/brand-logo/EV Initiative Logo Header.png"
+                      src="/assets/img/brand-logo/EV Initiative Logo Header.png"
                       alt="logo"
                       className="img-fluid"
                       style={{ height: "80px" }}

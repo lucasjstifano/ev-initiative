@@ -120,10 +120,7 @@ const FooterGlobalCrypto = ({ footerLight, style, footerGradient }) => {
                           </Link>
                         </li>
                         <li>
-                          <Link
-                            // smooth
-                            href="/apps"
-                          >
+                          <Link href="/apps">
                             <a className="text-decoration-none">Apps</a>
                           </Link>
                         </li>
@@ -133,10 +130,7 @@ const FooterGlobalCrypto = ({ footerLight, style, footerGradient }) => {
                           </Link>
                         </li>
                         <li>
-                          <Link
-                            // smooth
-                            href="/#cloud-management"
-                          >
+                          <Link href="/#cloud-management">
                             <a className="text-decoration-none">
                               Cloud Management
                             </a>
@@ -171,20 +165,13 @@ const FooterGlobalCrypto = ({ footerLight, style, footerGradient }) => {
                           </a>
                         </li>
                         <li>
-                          <Link
-                            // smooth
-                            href="/#network-app-ev"
-                          >
+                          <Link href="/#network-app-ev">
                             <a className="text-decoration-none">App Download</a>
                           </Link>
                         </li>
                         <li>
-                          <Link
-                            // smooth
-                            href="/#ev-faq"
-                          >
-                            <a className="text-decoration-none"></a>
-                            FAQs
+                          <Link href="/#ev-faq">
+                            <a className="text-decoration-none">FAQs</a>
                           </Link>
                         </li>
                         <li>

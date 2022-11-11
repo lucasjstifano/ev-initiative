@@ -1,3 +1,5 @@
+import SubscribeFormStacked from "@components/forms/SubscribeFormStacked";
+
 const WidgetNewsletter = () => {
   return (
     <div className="axil-single-widget widget widget_newsletter mb--30">
@@ -7,16 +9,7 @@ const WidgetNewsletter = () => {
           Sign up for free and be the first to <br /> get notified about
           updates.
         </p>
-        <form action="#">
-          <div className="form-group">
-            <input type="text" placeholder="Enter Your Email " />
-          </div>
-          <div className="form-submit">
-            <button className="cerchio axil-button button-rounded">
-              <span>Subscribe</span>
-            </button>
-          </div>
-        </form>
+        <SubscribeFormStacked />
       </div>
     </div>
   );

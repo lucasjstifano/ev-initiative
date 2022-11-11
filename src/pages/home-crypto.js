@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import PageMeta from "../../components/common/PageMeta";
-import SecVerticalSocial from "../../components/vertical-social";
-import { VerticalSocial } from "../../data";
-import FooterGlobalCrypto from "../../layout/Footer/FooterGlobalCrypto";
-import NavbarEV from "../../layout/Header/NavbarEV";
-import Layout from "../../layout/Layout";
-import HeroCrypto from "./HeroCrypto";
+import PageMeta from "@components/common/PageMeta";
+import SecVerticalSocial from "@components/vertical-social";
+import FooterGlobalCrypto from "@layout/Footer/FooterGlobalCrypto";
+import NavbarEV from "@layout/Header/NavbarEV";
+import Layout from "@layout/Layout";
+import { VerticalSocial } from "src/data";
+import HeroCrypto from "@components/hero/hero-crypto";
 
 class HomeCrypto extends Component {
   render() {

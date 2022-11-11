@@ -12,7 +12,7 @@ import SecVerticalSocial from "@components/vertical-social";
 import FooterGlobal from "@layout/Footer/FooterGlobal";
 import NavbarEV from "@layout/Header/NavbarEV";
 import { VerticalSocial } from "src/data";
-import HeroEV from "./hero-ev";
+import HeroEV from "@components/hero/hero-ev";
 
 export default function Home() {
   return (
