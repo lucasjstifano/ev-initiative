@@ -32,10 +32,7 @@ const HeroEV = () => {
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <Link
-                    // smooth
-                    href="/site-hosts"
-                  >
+                  <Link href="/site-hosts">
                     <a className="btn btn-primary me-3">Become a Host!</a>
                   </Link>
                 </div>

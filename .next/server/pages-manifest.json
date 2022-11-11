@@ -2,11 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/blog": "pages/blog.js",
-  "/": "pages/index.js",
-  "/about-ev-initiative": "pages/about-ev-initiative.js",
-  "/apps": "pages/apps.js",
-  "/hardware": "pages/hardware.js",
-  "/contact-us": "pages/contact-us.js",
-  "/site-hosts": "pages/site-hosts.js"
+  "/": "pages/index.js"
 }

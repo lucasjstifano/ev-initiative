@@ -1,6 +1,7 @@
 import "@styles/css/bootstrap.min.css";
 import "@styles/css/style.css";
 import "@styles/css/fontawesome-all.min.css";
+import "../styles/style.scss";
 
 // Import Swiper styles
 import "swiper/swiper.min.css";
