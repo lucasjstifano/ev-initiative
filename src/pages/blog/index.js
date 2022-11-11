@@ -31,7 +31,7 @@ const PostListPage = ({ allPosts }) => {
       <PageMeta title="EV Initiative - eMobility Service Provider & Charge Port Operator" />
       {/* <ColorSwitcher /> */}
       <NavbarEvPages />
-      <PageHeaderBasic title="Our Blog" desc="" />
+      <PageHeaderBasic title="EV Initiative Blog" desc="" />
       <div className="axil-post-list-area axil-section-gap bg-color-white">
         <div className="container">
           <div className="row">
@@ -42,7 +42,7 @@ const PostListPage = ({ allPosts }) => {
                 postStart={pageVisited}
               />
 
-              <ReactPaginate
+              {/* <ReactPaginate
                 previousLabel={<i className="fas fa-arrow-left"></i>}
                 nextLabel={<i className="fas fa-arrow-right"></i>}
                 pageCount={pageCount}
@@ -52,7 +52,7 @@ const PostListPage = ({ allPosts }) => {
                 nextLinkClassName={"next"}
                 disabledClassName={"disabled"}
                 activeClassName={"current"}
-              />
+              /> */}
             </div>
             <div className="col-lg-4 col-xl-4 mt_md--40 mt_sm--40">
               <SidebarOne dataPost={allPosts} />

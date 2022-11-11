@@ -8,10 +8,10 @@ import WidgetSocialShare from "./WidgetSocialShare";
 const SidebarOne = ({ dataPost }) => {
   return (
     <div className="sidebar-inner">
-      <WidgetCategory catData={dataPost} />
+      {/* <WidgetCategory catData={dataPost} /> */}
       {/* <WidgetSearch /> */}
-      <WidgetSocialShare />
       <WidgetPostList postData={dataPost} />
+      <WidgetSocialShare />
       <WidgetNewsletter />
       {/* <WidgetInstagramPost /> */}
     </div>

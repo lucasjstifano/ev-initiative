@@ -11,6 +11,7 @@ import Layout from "@layout/Layout";
 import PageMeta from "@components/common/PageMeta";
 import NavbarEvPages from "@layout/Header/NavbarEvPages";
 import FooterOne from "@layout/Footer/FooterOne";
+import PostFormatPressRelease from "src/common/components/post/format/PostFormatPressRelease";
 
 const PostDetails = ({ post, allPosts }) => {
   const PostFormatHandler = () => {
@@ -22,6 +23,8 @@ const PostDetails = ({ post, allPosts }) => {
       return <PostFormatAudio postData={post} allData={allPosts} />;
     } else if (post.postFormat === "quote") {
       return <PostFormatQuote postData={post} allData={allPosts} />;
+    } else if (post.postFormat === "press release") {
+      return <PostFormatPressRelease postData={post} allData={allPosts} />;
     } else {
       return <PostFormatStandard postData={post} allData={allPosts} />;
     }
