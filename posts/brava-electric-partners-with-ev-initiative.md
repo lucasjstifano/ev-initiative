@@ -1,7 +1,7 @@
 ---
 postFormat: "press release"
 title: "Brava Electric Partners With EV Initiative"
-featureImg: "/images/posts/thumbnail-01.webp"
+featureImg: "/images/posts/thumbnail-ev-brava.png"
 date: "Nov 8 2022"
 pCate: "Press Release Blog"
 cate: "Press Release"

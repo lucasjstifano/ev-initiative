@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/post/[slug]": "pages/post/[slug].js",
-  "/category/[slug]": "pages/category/[slug].js",
+  "/evi-token": "pages/evi-token.js",
   "/blog": "pages/blog.js"
 }

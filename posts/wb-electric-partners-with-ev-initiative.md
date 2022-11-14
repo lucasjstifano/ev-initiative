@@ -1,8 +1,8 @@
 ---
 postFormat: "press release"
 title: "WB Electric Partners With EV Initiative"
-featureImg: "/images/posts/thumbnail-08.webp"
-date: "Jun 30 2022"
+featureImg: "/images/posts/thumbnail-ev-wb.png"
+date: "Nov 12 2022"
 pCate: "Press Release Blog"
 cate: "Press Release"
 cate_img: "/assets/img/web-content/ev-logo-bl-bg.jpg"
@@ -29,6 +29,8 @@ tags:
   - UI/UX
   - Software
 ---
+
+![Post Images](/images/posts/thumbnail-ev-wb.png)
 
 EV Initiative Inc. and WB Electric, are proud to announce the formation of a partnership to
 distribute, operate and manage EV Charging stations in Northeastern Pennsylvania. The

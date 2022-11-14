@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/blog.js"
     ],
-    "/category/[slug]": [
+    "/evi-token": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/category/[slug].js"
+      "static/chunks/pages/evi-token.js"
     ],
     "/post/[slug]": [
       "static/chunks/webpack.js",

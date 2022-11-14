@@ -196,11 +196,11 @@ const FooterGlobal = ({ footerLight, style, footerGradient }) => {
                             <a className="text-decoration-none">Contact</a>
                           </Link>
                         </li>
-                        {/* <li>
+                        <li>
                           <Link href="/evi-token">
                             <a className="text-decoration-none">Crypto</a>
                           </Link>
-                        </li> */}
+                        </li>
                         <li>
                           <a
                             href="https://taplink.cc/evinitiative"
