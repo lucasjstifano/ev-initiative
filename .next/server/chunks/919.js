@@ -168,30 +168,27 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _WidgetCategory__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7778);
-/* harmony import */ var _WidgetInstagramPost__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9535);
-/* harmony import */ var _WidgetNewsletter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4478);
-/* harmony import */ var _WidgetPostList__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3944);
-/* harmony import */ var _WidgetSearch__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8207);
-/* harmony import */ var _WidgetSocialShare__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(9478);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_WidgetCategory__WEBPACK_IMPORTED_MODULE_1__, _WidgetNewsletter__WEBPACK_IMPORTED_MODULE_3__]);
-([_WidgetCategory__WEBPACK_IMPORTED_MODULE_1__, _WidgetNewsletter__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+/* harmony import */ var _WidgetNewsletter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4478);
+/* harmony import */ var _WidgetPostList__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3944);
+/* harmony import */ var _WidgetSocialShare__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9478);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_WidgetNewsletter__WEBPACK_IMPORTED_MODULE_1__]);
+_WidgetNewsletter__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+// import WidgetCategory from "./WidgetCategory";
+// import WidgetInstagramPost from "./WidgetInstagramPost";
 
 
 
-
-
-
+// import WidgetSearch from "./WidgetSearch";
 
 const SidebarOne = ({ dataPost  })=>{
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         className: "sidebar-inner",
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_WidgetPostList__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_WidgetPostList__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
                 postData: dataPost
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_WidgetSocialShare__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_WidgetNewsletter__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_WidgetSocialShare__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {}),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_WidgetNewsletter__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {})
         ]
     });
 };

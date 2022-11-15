@@ -245,18 +245,16 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _element_PostAuthor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4997);
-/* harmony import */ var _sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6127);
-/* harmony import */ var _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1562);
-/* harmony import */ var _element_PostComment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5173);
-/* harmony import */ var _element_PostTagShare__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5861);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__, _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__, _element_PostComment__WEBPACK_IMPORTED_MODULE_4__, _element_PostTagShare__WEBPACK_IMPORTED_MODULE_5__]);
-([_sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__, _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__, _element_PostComment__WEBPACK_IMPORTED_MODULE_4__, _element_PostTagShare__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+/* harmony import */ var _sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6127);
+/* harmony import */ var _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1562);
+/* harmony import */ var _element_PostTagShare__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5861);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_1__, _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_2__]);
+([_sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_1__, _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_2__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+// import PostAuthor from "./element/PostAuthor";
 
 
 
-
-
+// import PostComment from "./element/PostComment";
 
 const PostFormatPressRelease = ({ postData , allData  })=>{
     const basePathLink =  true ? process.env.NEXT_PUBLIC_BASEPATH ?? "" : 0;
@@ -272,7 +270,7 @@ const PostFormatPressRelease = ({ postData , allData  })=>{
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             className: "col-lg-8",
                             children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
                                     metaData: postData
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -284,7 +282,7 @@ const PostFormatPressRelease = ({ postData , allData  })=>{
                                                 __html: postContent
                                             }
                                         }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_element_PostTagShare__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_element_PostTagShare__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
                                             postTags: postData
                                         })
                                     ]
@@ -293,7 +291,7 @@ const PostFormatPressRelease = ({ postData , allData  })=>{
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                             className: "col-lg-4",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
                                 dataPost: allData,
                                 tagData: postData
                             })
@@ -398,8 +396,8 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var _sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6127);
 /* harmony import */ var _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1562);
 /* harmony import */ var _element_PostTagShare__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5861);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_element_PostMetaOne__WEBPACK_IMPORTED_MODULE_1__, _sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__, _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__, _element_PostTagShare__WEBPACK_IMPORTED_MODULE_4__]);
-([_element_PostMetaOne__WEBPACK_IMPORTED_MODULE_1__, _sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__, _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__, _element_PostTagShare__WEBPACK_IMPORTED_MODULE_4__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_element_PostMetaOne__WEBPACK_IMPORTED_MODULE_1__, _sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__, _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__]);
+([_element_PostMetaOne__WEBPACK_IMPORTED_MODULE_1__, _sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__, _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
 
 // import PostAuthor from "./element/PostAuthor";
@@ -479,8 +477,8 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1562);
 /* harmony import */ var _element_PostComment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5173);
 /* harmony import */ var _element_PostTagShare__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5861);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__, _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__, _element_PostComment__WEBPACK_IMPORTED_MODULE_4__, _element_PostTagShare__WEBPACK_IMPORTED_MODULE_5__]);
-([_sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__, _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__, _element_PostComment__WEBPACK_IMPORTED_MODULE_4__, _element_PostTagShare__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__, _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__, _element_PostComment__WEBPACK_IMPORTED_MODULE_4__]);
+([_sidebar_SidebarTwo__WEBPACK_IMPORTED_MODULE_2__, _element_PostMetaTwo__WEBPACK_IMPORTED_MODULE_3__, _element_PostComment__WEBPACK_IMPORTED_MODULE_4__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
 
 
@@ -1491,23 +1489,17 @@ __webpack_async_result__();
 /***/ }),
 
 /***/ 5861:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5166);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_utils__WEBPACK_IMPORTED_MODULE_2__]);
-_utils__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+// import Link from "next/link";
+// import { slugify } from "../../../../utils";
 
-
-
-const PostTagShare = ({ postTags  })=>{
+const PostTagShare = ()=>{
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
             className: "social-share-block",
@@ -1558,8 +1550,6 @@ const PostTagShare = ({ postTags  })=>{
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PostTagShare);
 
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
@@ -1572,34 +1562,29 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _WidgetAd__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8302);
-/* harmony import */ var _WidgetCategory__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7778);
-/* harmony import */ var _WidgetInstagramPost__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9535);
-/* harmony import */ var _WidgetNewsletter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4478);
-/* harmony import */ var _WidgetPostList__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(3944);
-/* harmony import */ var _WidgetSearch__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(8207);
-/* harmony import */ var _WidgetSocialShare__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(9478);
-/* harmony import */ var _WidgetTags__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(2437);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_WidgetCategory__WEBPACK_IMPORTED_MODULE_2__, _WidgetNewsletter__WEBPACK_IMPORTED_MODULE_4__, _WidgetTags__WEBPACK_IMPORTED_MODULE_8__]);
-([_WidgetCategory__WEBPACK_IMPORTED_MODULE_2__, _WidgetNewsletter__WEBPACK_IMPORTED_MODULE_4__, _WidgetTags__WEBPACK_IMPORTED_MODULE_8__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+/* harmony import */ var _WidgetNewsletter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4478);
+/* harmony import */ var _WidgetPostList__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3944);
+/* harmony import */ var _WidgetSocialShare__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9478);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_WidgetNewsletter__WEBPACK_IMPORTED_MODULE_1__]);
+_WidgetNewsletter__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+// import WidgetAd from "./WidgetAd";
+// import WidgetCategory from "./WidgetCategory";
+// import WidgetInstagramPost from "./WidgetInstagramPost";
 
 
 
+// import WidgetSearch from "./WidgetSearch";
 
-
-
-
-
-
-const SidebarTwo = ({ dataPost , tagData  })=>{
+// import WidgetTags from "./WidgetTags";
+const SidebarTwo = ({ dataPost  })=>{
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         className: "sidebar-inner",
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_WidgetPostList__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_WidgetPostList__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
                 postData: dataPost
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_WidgetSocialShare__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_WidgetNewsletter__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {})
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_WidgetSocialShare__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {}),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_WidgetNewsletter__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {})
         ]
     });
 };
@@ -1610,76 +1595,53 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 8302:
-/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+/***/ 4138:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5675);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(968);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 
 
-const WidgetAd = ({ url , image , height , width  })=>{
-    return /*#__PURE__*/ _jsx("div", {
-        className: "axil-single-widget widget widget_ads mb--30",
-        children: /*#__PURE__*/ _jsx("div", {
-            className: "thumbnail",
-            children: /*#__PURE__*/ _jsx("a", {
-                href: url,
-                children: /*#__PURE__*/ _jsx(Image, {
-                    src: image,
-                    alt: "Ads Image",
-                    height: height,
-                    width: width,
-                    priority: true
-                })
-            })
-        })
-    });
-};
-/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (WidgetAd)));
-
-
-/***/ }),
-
-/***/ 2437:
-/***/ ((module, __unused_webpack___webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5166);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_utils__WEBPACK_IMPORTED_MODULE_2__]);
-_utils__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-const WidgetTags = ({ postTag  })=>{
-    return /*#__PURE__*/ _jsxs("div", {
-        className: "axil-single-widget widget widget_tag_cloud mb--30",
+const HeadTitle = ({ pageTitle  })=>{
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {
         children: [
-            /*#__PURE__*/ _jsx("h5", {
-                className: "widget-title",
-                children: "Tags"
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                charSet: "utf-8"
             }),
-            /*#__PURE__*/ _jsx("div", {
-                className: "tagcloud",
-                children: postTag.tags.map((data, index)=>/*#__PURE__*/ _jsx(Link, {
-                        href: `/tag/${slugify(data)}`,
-                        children: /*#__PURE__*/ _jsx("a", {
-                            children: data
-                        })
-                    }, index))
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                httpEquiv: "x-ua-compatible",
+                content: "ie=edge"
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
+                children: `${pageTitle} || Blogar - Personal Blog Next JS Template`
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                name: "robots",
+                content: "noindex, follow"
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                name: "description",
+                content: "Personal Blog Next JS Template"
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                name: "viewport",
+                content: "width=device-width, initial-scale=1, shrink-to-fit=no"
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
+                rel: "icon",
+                type: "image/x-icon",
+                href: `${ true ? process.env.NEXT_PUBLIC_BASEPATH ?? "" : 0}/favicon.ico`
             })
         ]
     });
 };
-/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (WidgetTags)));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HeadTitle);
 
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
@@ -1699,20 +1661,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4626);
 /* harmony import */ var _common_elements_head_HeadTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4138);
 /* harmony import */ var _common_components_post_format_PostFormatStandard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6602);
-/* harmony import */ var _common_components_instagram_InstagramOne__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8208);
-/* harmony import */ var _common_components_post_format_PostFormatVideo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5227);
-/* harmony import */ var _common_components_post_format_PostFormatGallery__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(7350);
-/* harmony import */ var _common_components_post_format_PostFormatAudio__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(6285);
-/* harmony import */ var _common_components_post_format_PostFormatQuote__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(1120);
-/* harmony import */ var _layout_Layout__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(9608);
-/* harmony import */ var _components_common_PageMeta__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(1738);
-/* harmony import */ var _layout_Header_NavbarEvPages__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(2788);
-/* harmony import */ var _layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(2489);
-/* harmony import */ var src_common_components_post_format_PostFormatPressRelease__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(585);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_1__, _common_components_post_format_PostFormatStandard__WEBPACK_IMPORTED_MODULE_4__, _common_components_post_format_PostFormatVideo__WEBPACK_IMPORTED_MODULE_6__, _common_components_post_format_PostFormatGallery__WEBPACK_IMPORTED_MODULE_7__, _common_components_post_format_PostFormatAudio__WEBPACK_IMPORTED_MODULE_8__, _common_components_post_format_PostFormatQuote__WEBPACK_IMPORTED_MODULE_9__, _layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_13__, src_common_components_post_format_PostFormatPressRelease__WEBPACK_IMPORTED_MODULE_14__]);
-([_lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_1__, _common_components_post_format_PostFormatStandard__WEBPACK_IMPORTED_MODULE_4__, _common_components_post_format_PostFormatVideo__WEBPACK_IMPORTED_MODULE_6__, _common_components_post_format_PostFormatGallery__WEBPACK_IMPORTED_MODULE_7__, _common_components_post_format_PostFormatAudio__WEBPACK_IMPORTED_MODULE_8__, _common_components_post_format_PostFormatQuote__WEBPACK_IMPORTED_MODULE_9__, _layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_13__, src_common_components_post_format_PostFormatPressRelease__WEBPACK_IMPORTED_MODULE_14__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
-
-
+/* harmony import */ var _common_components_post_format_PostFormatVideo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5227);
+/* harmony import */ var _common_components_post_format_PostFormatGallery__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7350);
+/* harmony import */ var _common_components_post_format_PostFormatAudio__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(6285);
+/* harmony import */ var _common_components_post_format_PostFormatQuote__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(1120);
+/* harmony import */ var _components_common_PageMeta__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(1738);
+/* harmony import */ var _layout_Header_NavbarEvPages__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(2788);
+/* harmony import */ var _layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(2489);
+/* harmony import */ var src_common_components_post_format_PostFormatPressRelease__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(585);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_1__, _common_components_post_format_PostFormatStandard__WEBPACK_IMPORTED_MODULE_4__, _common_components_post_format_PostFormatVideo__WEBPACK_IMPORTED_MODULE_5__, _common_components_post_format_PostFormatGallery__WEBPACK_IMPORTED_MODULE_6__, _common_components_post_format_PostFormatAudio__WEBPACK_IMPORTED_MODULE_7__, _common_components_post_format_PostFormatQuote__WEBPACK_IMPORTED_MODULE_8__, _layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_11__, src_common_components_post_format_PostFormatPressRelease__WEBPACK_IMPORTED_MODULE_12__]);
+([_lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_1__, _common_components_post_format_PostFormatStandard__WEBPACK_IMPORTED_MODULE_4__, _common_components_post_format_PostFormatVideo__WEBPACK_IMPORTED_MODULE_5__, _common_components_post_format_PostFormatGallery__WEBPACK_IMPORTED_MODULE_6__, _common_components_post_format_PostFormatAudio__WEBPACK_IMPORTED_MODULE_7__, _common_components_post_format_PostFormatQuote__WEBPACK_IMPORTED_MODULE_8__, _layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_11__, src_common_components_post_format_PostFormatPressRelease__WEBPACK_IMPORTED_MODULE_12__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
 
 
@@ -1729,27 +1687,27 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_lib
 const PostDetails = ({ post , allPosts  })=>{
     const PostFormatHandler = ()=>{
         if (post.postFormat === "video") {
-            return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_components_post_format_PostFormatVideo__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
+            return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_components_post_format_PostFormatVideo__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
                 postData: post,
                 allData: allPosts
             });
         } else if (post.postFormat === "gallery") {
-            return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_components_post_format_PostFormatGallery__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {
+            return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_components_post_format_PostFormatGallery__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
                 postData: post,
                 allData: allPosts
             });
         } else if (post.postFormat === "audio") {
-            return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_components_post_format_PostFormatAudio__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
+            return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_components_post_format_PostFormatAudio__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {
                 postData: post,
                 allData: allPosts
             });
         } else if (post.postFormat === "quote") {
-            return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_components_post_format_PostFormatQuote__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {
+            return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_components_post_format_PostFormatQuote__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
                 postData: post,
                 allData: allPosts
             });
         } else if (post.postFormat === "press release") {
-            return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_common_components_post_format_PostFormatPressRelease__WEBPACK_IMPORTED_MODULE_14__/* ["default"] */ .Z, {
+            return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_common_components_post_format_PostFormatPressRelease__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z, {
                 postData: post,
                 allData: allPosts
             });
@@ -1762,15 +1720,15 @@ const PostDetails = ({ post , allPosts  })=>{
     };
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_common_PageMeta__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_common_PageMeta__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {
                 title: "EV Initiative - eMobility Service Provider & Charge Port Operator"
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layout_Header_NavbarEvPages__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z, {}),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layout_Header_NavbarEvPages__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z, {}),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_elements_head_HeadTitle__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
                 pageTitle: post.title
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(PostFormatHandler, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_13__/* ["default"] */ .Z, {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
                 footerLight: true
             })
         ]
@@ -2138,7 +2096,7 @@ module.exports = require("fs");
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [699,676,664,675,663,608,520,356,208,138], () => (__webpack_exec__(9770)));
+var __webpack_exports__ = __webpack_require__.X(0, [699,676,664,675,663,520,4], () => (__webpack_exec__(9770)));
 module.exports = __webpack_exports__;
 
 })();

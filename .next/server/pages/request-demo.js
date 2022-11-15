@@ -1376,8 +1376,8 @@ const FooterSocial = ()=>{
 // EXTERNAL MODULE: ./src/layout/Layout.js
 var Layout = __webpack_require__(9608);
 ;// CONCATENATED MODULE: ./src/pages/request-demo.js
-Object(function webpackMissingModule() { var e = new Error("Cannot find module '../components/tabs/ReviewTabTwo'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-Object(function webpackMissingModule() { var e = new Error("Cannot find module '../layout/Header/Navbar'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+Object(function webpackMissingModule() { var e = new Error("Cannot find module '@components/tabs/ReviewTabTwo'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+Object(function webpackMissingModule() { var e = new Error("Cannot find module '@layout/Header/Navbar'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
 
 
@@ -1392,7 +1392,7 @@ const RequestDemo = ()=>{
             /*#__PURE__*/ jsx_runtime_.jsx(PageMeta/* default */.Z, {
                 title: "Request for Deomo - Software & IT Solutions HTML Template"
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../layout/Header/Navbar'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), {
+            /*#__PURE__*/ jsx_runtime_.jsx(Object(function webpackMissingModule() { var e = new Error("Cannot find module '@layout/Header/Navbar'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), {
                 navDark: true,
                 posAbsolute: true
             }),
@@ -1404,7 +1404,7 @@ const RequestDemo = ()=>{
                         className: "row align-items-center justify-content-between",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx(contact_ContactsForm, {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../components/tabs/ReviewTabTwo'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), {
+                            /*#__PURE__*/ jsx_runtime_.jsx(Object(function webpackMissingModule() { var e = new Error("Cannot find module '@components/tabs/ReviewTabTwo'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), {
                                 reqPage: true
                             })
                         ]

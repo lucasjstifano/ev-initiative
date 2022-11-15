@@ -18,21 +18,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _lib_api__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4626);
-/* harmony import */ var _common_components_instagram_InstagramOne__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8208);
-/* harmony import */ var _common_components_post_layout_PostLayoutTwo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3931);
-/* harmony import */ var _common_elements_breadcrumb_breadcrumbOne__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(7824);
-/* harmony import */ var _common_elements_head_HeadTitle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4138);
-/* harmony import */ var _common_elements_header_HeaderOne__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(161);
-/* harmony import */ var _common_components_sidebar_SidebarOne__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(2365);
-/* harmony import */ var _common_utils__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(5166);
-/* harmony import */ var _layout_Header_NavbarEvPages__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(2788);
-/* harmony import */ var _components_common_PageMeta__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(1738);
-/* harmony import */ var _layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(2489);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_common_components_post_layout_PostLayoutTwo__WEBPACK_IMPORTED_MODULE_3__, _common_elements_header_HeaderOne__WEBPACK_IMPORTED_MODULE_6__, _common_components_sidebar_SidebarOne__WEBPACK_IMPORTED_MODULE_7__, _common_utils__WEBPACK_IMPORTED_MODULE_8__, _layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_11__]);
-([_common_components_post_layout_PostLayoutTwo__WEBPACK_IMPORTED_MODULE_3__, _common_elements_header_HeaderOne__WEBPACK_IMPORTED_MODULE_6__, _common_components_sidebar_SidebarOne__WEBPACK_IMPORTED_MODULE_7__, _common_utils__WEBPACK_IMPORTED_MODULE_8__, _layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_11__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
-
-
-
+/* harmony import */ var _common_components_post_layout_PostLayoutTwo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3931);
+/* harmony import */ var _common_elements_breadcrumb_breadcrumbOne__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7824);
+/* harmony import */ var _common_components_sidebar_SidebarOne__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2365);
+/* harmony import */ var _common_utils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5166);
+/* harmony import */ var _layout_Header_NavbarEvPages__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(2788);
+/* harmony import */ var _components_common_PageMeta__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(1738);
+/* harmony import */ var _layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(2489);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_common_components_post_layout_PostLayoutTwo__WEBPACK_IMPORTED_MODULE_2__, _common_components_sidebar_SidebarOne__WEBPACK_IMPORTED_MODULE_4__, _common_utils__WEBPACK_IMPORTED_MODULE_5__, _layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_8__]);
+([_common_components_post_layout_PostLayoutTwo__WEBPACK_IMPORTED_MODULE_2__, _common_components_sidebar_SidebarOne__WEBPACK_IMPORTED_MODULE_4__, _common_utils__WEBPACK_IMPORTED_MODULE_5__, _layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_8__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
 
 
@@ -45,11 +39,11 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_com
 const PostCategory = ({ postData , allPosts  })=>{
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_common_PageMeta__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z, {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_common_PageMeta__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {
                 title: "EV Initiative - eMobility Service Provider & Charge Port Operator"
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layout_Header_NavbarEvPages__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_elements_breadcrumb_breadcrumbOne__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layout_Header_NavbarEvPages__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {}),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_elements_breadcrumb_breadcrumbOne__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
                 title: postData[0].cate
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -61,14 +55,14 @@ const PostCategory = ({ postData , allPosts  })=>{
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "col-lg-8 col-xl-8",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_components_post_layout_PostLayoutTwo__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_components_post_layout_PostLayoutTwo__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
                                     dataPost: postData,
                                     show: "5"
                                 })
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "col-lg-4 col-xl-4 mt_md--40 mt_sm--40",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_components_sidebar_SidebarOne__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_common_components_sidebar_SidebarOne__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
                                     dataPost: allPosts
                                 })
                             })
@@ -76,7 +70,7 @@ const PostCategory = ({ postData , allPosts  })=>{
                     })
                 })
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layout_Footer_FooterOne__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
                 footerLight: true
             })
         ]
@@ -97,7 +91,7 @@ async function getStaticProps({ params  }) {
         "author_name",
         "author_social", 
     ]);
-    const getCategoryData = allPosts.filter((post)=>(0,_common_utils__WEBPACK_IMPORTED_MODULE_8__/* .slugify */ .lV)(post.cate) === postParams);
+    const getCategoryData = allPosts.filter((post)=>(0,_common_utils__WEBPACK_IMPORTED_MODULE_5__/* .slugify */ .lV)(post.cate) === postParams);
     const postData = getCategoryData;
     return {
         props: {
@@ -112,7 +106,7 @@ async function getStaticPaths() {
     ]);
     const paths = posts.map((post)=>({
             params: {
-                slug: (0,_common_utils__WEBPACK_IMPORTED_MODULE_8__/* .slugify */ .lV)(post.cate)
+                slug: (0,_common_utils__WEBPACK_IMPORTED_MODULE_5__/* .slugify */ .lV)(post.cate)
             }
         }));
     return {
@@ -329,13 +323,6 @@ module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
-/***/ 968:
-/***/ ((module) => {
-
-module.exports = require("next/head");
-
-/***/ }),
-
 /***/ 1423:
 /***/ ((module) => {
 
@@ -392,7 +379,7 @@ module.exports = require("fs");
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [699,676,664,675,663,520,356,919,208,906,138], () => (__webpack_exec__(4577)));
+var __webpack_exports__ = __webpack_require__.X(0, [699,676,664,675,663,520,4,919,824], () => (__webpack_exec__(4577)));
 module.exports = __webpack_exports__;
 
 })();

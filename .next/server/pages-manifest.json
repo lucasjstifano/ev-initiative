@@ -2,5 +2,17 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/about-ev-initiative": "pages/about-ev-initiative.js",
+  "/apps": "pages/apps.js",
+  "/contact-us": "pages/contact-us.js",
+  "/evi-token": "pages/evi-token.js",
+  "/hardware": "pages/hardware.js",
+  "/": "pages/index.js",
+  "/privacy-policy": "pages/privacy-policy.js",
+  "/request-demo": "pages/request-demo.js",
+  "/site-hosts": "pages/site-hosts.js",
+  "/blog": "pages/blog.js",
+  "/category/[slug]": "pages/category/[slug].js",
+  "/post/[slug]": "pages/post/[slug].js",
+  "/tag/[slug]": "pages/tag/[slug].js"
 }

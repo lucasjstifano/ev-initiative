@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import PageHeaderBasic from "../components/common/PageHeaderBasic";
-import PageMeta from "../components/common/PageMeta";
-import SecVerticalSocial from "../components/vertical-social";
-import { VerticalSocial } from "../data";
-import NavbarEvPages from "../layout/Header/NavbarEvPages";
-import Layout from "../layout/Layout";
-import FooterOne from "../layout/Footer/FooterOne";
-import PrivacyPolicyDetail from "../components/integration/PrivacyPolicyDetail";
+import PageHeaderBasic from "@components/common/PageHeaderBasic";
+import PageMeta from "@components/common/PageMeta";
+import SecVerticalSocial from "@components/vertical-social";
+import NavbarEvPages from "@layout/Header/NavbarEvPages";
+import Layout from "@layout/Layout";
+import FooterOne from "@layout/Footer/FooterOne";
+import PrivacyPolicyDetail from "@components/integration/PrivacyPolicyDetail";
+import { VerticalSocial } from "src/data";
 
 class PrivacyPolicy extends Component {
   render() {
