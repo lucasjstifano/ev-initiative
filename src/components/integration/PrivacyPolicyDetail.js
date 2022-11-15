@@ -1,5 +1,4 @@
 import React from "react";
-import IntegrationForm from "./IntegrationForm";
 
 const PrivacyPolicyDetail = () => {
   return (

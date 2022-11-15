@@ -1,9 +1,6 @@
 import { getAllPosts } from "../../../lib/api";
-import InstagramOne from "../../common/components/instagram/InstagramOne";
 import PostLayoutTwo from "../../common/components/post/layout/PostLayoutTwo";
 import BreadcrumbOne from "../../common/elements/breadcrumb/breadcrumbOne";
-import HeadTitle from "../../common/elements/head/HeadTitle";
-import HeaderOne from "../../common/elements/header/HeaderOne";
 import SidebarOne from "../../common/components/sidebar/SidebarOne";
 import { slugify } from "../../common/utils";
 import NavbarEvPages from "@layout/Header/NavbarEvPages";
@@ -14,7 +11,6 @@ const PostCategory = ({ postData, allPosts }) => {
   return (
     <>
       <PageMeta title="EV Initiative - eMobility Service Provider & Charge Port Operator" />
-      {/* <ColorSwitcher /> */}
       <NavbarEvPages />
       <BreadcrumbOne title={postData[0].cate} />
       <div className="axil-post-list-area axil-section-gap bg-color-white">

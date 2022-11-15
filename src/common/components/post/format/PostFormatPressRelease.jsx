@@ -1,7 +1,7 @@
-import PostAuthor from "./element/PostAuthor";
+// import PostAuthor from "./element/PostAuthor";
 import SidebarTwo from "../../sidebar/SidebarTwo";
 import PostMetaTwo from "./element/PostMetaTwo";
-import PostComment from "./element/PostComment";
+// import PostComment from "./element/PostComment";
 import PostTagShare from "./element/PostTagShare";
 
 const PostFormatPressRelease = ({ postData, allData }) => {

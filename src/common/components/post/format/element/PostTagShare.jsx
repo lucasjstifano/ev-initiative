@@ -1,7 +1,7 @@
-import Link from "next/link";
-import { slugify } from "../../../../utils";
+// import Link from "next/link";
+// import { slugify } from "../../../../utils";
 
-const PostTagShare = ({ postTags }) => {
+const PostTagShare = () => {
   return (
     <>
       {/* <div className="tagcloud">

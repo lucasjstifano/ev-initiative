@@ -4,7 +4,6 @@ import PageMeta from "@components/common/PageMeta";
 import FooterOne from "@layout/Footer/FooterOne";
 import NavbarEvPages from "@layout/Header/NavbarEvPages";
 import Layout from "@layout/Layout";
-import ReactPaginate from "react-paginate";
 import SidebarOne from "src/common/components/sidebar/SidebarOne";
 
 import { SortingByDate } from "src/common/utils";

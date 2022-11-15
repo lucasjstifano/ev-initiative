@@ -1,8 +1,8 @@
-import WidgetCategory from "./WidgetCategory";
-import WidgetInstagramPost from "./WidgetInstagramPost";
+// import WidgetCategory from "./WidgetCategory";
+// import WidgetInstagramPost from "./WidgetInstagramPost";
 import WidgetNewsletter from "./WidgetNewsletter";
 import WidgetPostList from "./WidgetPostList";
-import WidgetSearch from "./WidgetSearch";
+// import WidgetSearch from "./WidgetSearch";
 import WidgetSocialShare from "./WidgetSocialShare";
 
 const SidebarOne = ({ dataPost }) => {
