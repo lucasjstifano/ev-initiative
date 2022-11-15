@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import OffCanvasMenu from "./OffCanvasMenu";
+import OffCanvasMenuNext from "./OffCanvasMenuNext";
 
 const NavbarEvPages = ({ navDark }) => {
   const [scroll, setScroll] = useState(0);

@@ -5,21 +5,22 @@ const OffCanvasMenu = () => {
   return (
     <>
       <div
-        className="offcanvas offcanvas-end"
+        className="offcanvas offcanvas-end offcanvas-backdrop"
         tabIndex="-1"
         id="offcanvasWithBackdrop"
       >
         <div className="offcanvas-header d-flex align-items-center mt-4">
-          <Link href="/">
-            <a className="d-flex align-items-center mb-md-0 text-decoration-none">
-              <img
-                src="assets/img/brand-logo/EV Initiative Logo Header.png"
-                alt="logo"
-                className="img-fluid ps-2"
-                style={{ height: 60 }}
-              />
-            </a>
-          </Link>
+          <a
+            href="/"
+            className="d-flex align-items-center mb-md-0 text-decoration-none"
+          >
+            <img
+              src="assets/img/brand-logo/EV Initiative Logo Header.png"
+              alt="logo"
+              className="img-fluid ps-2"
+              style={{ height: 60 }}
+            />
+          </a>
           <button
             type="button"
             className="close-btn text-danger"
@@ -68,7 +69,7 @@ const OffCanvasMenu = () => {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  Blog
+                  Shop
                 </a>
               </Link>
             </li>

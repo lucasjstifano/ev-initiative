@@ -4939,13 +4939,13 @@ fieldset:disabled .btn {
   padding: 0.75rem;
   word-wrap: break-word;
 }
-.modal-open {
+/* .modal-open {
   overflow: hidden;
 }
 .modal-open .modal {
   overflow-x: hidden;
   overflow-y: auto;
-}
+} */
 .modal {
   position: fixed;
   top: 0;

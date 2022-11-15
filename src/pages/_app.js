@@ -1,4 +1,5 @@
 import "@styles/css/bootstrap.min.css";
+// import "@styles/js/bootstrap.bundle.min.js";
 import "@styles/css/style.css";
 import "@styles/css/fontawesome-all.min.css";
 import "../styles/style.scss";
@@ -17,7 +18,13 @@ import { Fragment } from "react";
 //Third Party Imports
 import { Toaster } from "react-hot-toast";
 
+import { useEffect } from "react";
+
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    require("@styles/js/bootstrap.bundle.min.js");
+  }, []);
+
   return (
     <Fragment>
       <Script
@@ -26,6 +33,26 @@ function MyApp({ Component, pageProps }) {
         crossOrigin="anonymous"
       ></Script>
       <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-ME2GBL8395"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+      
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ME2GBL8395");
+    />
+      `,
+          }}
+        />
+
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover"
