@@ -37,32 +37,37 @@ const OffCanvasMenuCrypto = () => {
               </Link>
             </li>
             <li>
-              <Link
-                // smooth
-                to="/evi-token#evi-benefits"
-              >
+              <Link to="/evi-token#evi-benefits">
                 <a className="nav-link">Benefits</a>
               </Link>
             </li>
             <li>
-              <Link
-                // smooth
-                to="/evi-token#evi-whitepaper"
-              >
+              <Link to="/evi-token#evi-whitepaper">
                 <a className="nav-link">Our Vision</a>
               </Link>
             </li>
             <li>
-              <Link
-                // smooth
-                href="/evi-token#evi-founders"
-              >
+              <Link href="/evi-token#evi-founders">
                 <a className="nav-link">Overview</a>
               </Link>
             </li>
             <li>
               <Link href="/">
                 <a className="nav-link">EV Initiative</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog">
+                <a className="nav-link">Blog</a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://evinitiative.shop/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <a className="nav-link">Shop</a>
               </Link>
             </li>
             <li>

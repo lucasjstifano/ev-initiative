@@ -87,6 +87,13 @@ const NavbarEvPages = ({ navDark }) => {
                   </Link>
                 </li>
                 <li>
+                  <Link href="https://evinitiative.shop/">
+                    <a className="nav-link" target="_blank" rel="noreferrer">
+                      Shop
+                    </a>
+                  </Link>
+                </li>
+                <li>
                   <Link href="/contact-us">
                     <a className="nav-link me-4">Contact</a>
                   </Link>

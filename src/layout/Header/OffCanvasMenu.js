@@ -57,15 +57,31 @@ const OffCanvasMenu = () => {
               </Link>
             </li>
             <li>
+              <Link href="/blog">
+                <a className="nav-link">Blog</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="https://evinitiative.shop/">
+                <a
+                  className="nav-link"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Blog
+                </a>
+              </Link>
+            </li>
+            <li>
               <Link href="/contact-us">
                 <a className="nav-link">Contact</a>
               </Link>
             </li>
           </ul>
           <div className="action-btns mt-4 ps-3">
-            <Link href="/login">
+            {/* <Link href="/login">
               <a className="btn btn-outline-primary me-2">Sign In</a>
-            </Link>
+            </Link> */}
             <a
               href="https://evinitiative.network/"
               target="_blank"

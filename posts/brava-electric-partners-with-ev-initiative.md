@@ -30,6 +30,8 @@ tags:
   - Software
 ---
 
+![Post Images](/images/posts/thumbnail-ev-brava.png)
+
 EV Initiative Inc. and [Brava Electric & Telecom, Inc.](https://bravaelectric.com/) are proud to announce the formation of a partnership to distribute, operate and manage EV Charging stations in the
 greater Boston area. The partnership is focused on bringing to market and creating a network
 of level 2 and level 3 EV chargers by targeting residential, commercial and fleet customers

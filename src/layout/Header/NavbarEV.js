@@ -52,7 +52,7 @@ const NavbarEV = ({ navDark }) => {
                 role="button"
               >
                 <span
-                  className="far fa-bars"
+                  className="far fa-bars text-white"
                   data-bs-toggle="offcanvas"
                   data-bs-target="#offcanvasWithBackdrop"
                   aria-controls="offcanvasWithBackdrop"
@@ -90,6 +90,17 @@ const NavbarEV = ({ navDark }) => {
                 <li>
                   <Link href="/blog">
                     <a className="nav-link">Blog</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://evinitiative.shop/">
+                    <a
+                      className="nav-link"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      Shop
+                    </a>
                   </Link>
                 </li>
                 <li>

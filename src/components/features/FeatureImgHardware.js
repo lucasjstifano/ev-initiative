@@ -36,7 +36,7 @@ const FeatureImgHardware = () => {
               </div>
             </div>
             <div className="col-lg-6 col-12 order-lg-0">
-              <div className="feature-img-holder mt-4 mt-lg-0 mt-xl-0">
+              <div className="feature-img-holder mt-5 mt-lg-0 mt-xl-0">
                 <img
                   src="assets/img/web-content/ev-open-public.jpg"
                   className="img-fluid img-radius shadow-lg"

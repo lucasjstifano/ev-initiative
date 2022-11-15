@@ -13,7 +13,7 @@ const AboutPage = () => {
           <div className="col-lg-6 col-md-12">
             <div className="cyber-about-img text-center mb-30 mb-lg-0">
               <img
-                src="assets/img/web-content/about-page-600.jpg"
+                src="assets/img/web-content/about-page-600-aaron-warren.jpg"
                 alt="VR"
                 className="img-fluid"
               />
